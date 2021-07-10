@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<!--
+   自定义控件的 fxml 文件采用 <fx:root> 标签为根标签, 且无需填写 fx:Controller 属性
+-->
+
+<fx:root fx:id="anchor_pane" type="AnchorPane" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TextField fx:id="text_key" promptText="key" />
+            <Label fx:id="label" alignment="CENTER" text=" : " textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" />
+            <TextField fx:id="text_value" promptText="value" />
+         </children>
+         <padding>
+            <Insets left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </HBox>
+   </children>
+</fx:root>

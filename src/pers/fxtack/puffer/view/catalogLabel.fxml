@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<!--
+   自定义控件的 fxml 文件采用 <fx:root> 标签为根标签, 且无需填写 fx:Controller 属性
+-->
+<fx:root fx:id="" type="HBox" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="catalog_number" text="Label" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="5.0">
+         <HBox.margin>
+            <Insets right="15.0" />
+         </HBox.margin></Label>
+      <Label fx:id="catalog_file_name" prefWidth="135.0" text="qweqweqwe" AnchorPane.bottomAnchor="5.0" AnchorPane.topAnchor="5.0">
+         <HBox.margin>
+            <Insets right="5.0" />
+         </HBox.margin></Label>
+      <Label fx:id="catalog_file_size" alignment="TOP_LEFT" prefWidth="65.0" text="Label" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="5.0" />
+   </children>
+   <padding>
+      <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+   </padding>
+</fx:root>
